@@ -1,0 +1,23 @@
+:root {
+  // font
+  --main-font: "Ubuntu", Arial, sans-serif;
+
+  // Color
+  --accent-color: #e28d48;
+  --primary-color: #333;
+
+  // gap for margin and padding
+  --gap-1: 0.5em;
+  --gap-2: 1em;
+  --gap-3: 2em;
+
+  // media quiries
+  --tablet: 768px;
+  --desktop: 1080p;
+}
+
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700,
+);

@@ -1,0 +1,28 @@
+@use '../abstract/variables' as *;
+
+.page {
+  display: flex;
+  flex-direction: column;
+
+  &__hero {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__signup {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+
+    &__hero {
+      flex-basis: 77%;
+    }
+
+    &__signup {
+      flex-basis: 33%;
+    }
+  }
+}
